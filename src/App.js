@@ -1,9 +1,9 @@
+import { BrowserRouter as Main, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'
 import Textform from './components/Textform';
 import About from './components/About';
 import { useState } from 'react';
-import { BrowserRouter as Main, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [mode, setMode] = useState('light'); //will tell wehather dark mode is enables or not
